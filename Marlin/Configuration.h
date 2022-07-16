@@ -8,7 +8,7 @@
 
 // Touchscreen
 //#define MachineCR10SPro // Graphics LCD Requires soldering R64 and R66
-//#define MachineCR10SProV2 // Second Gen 10S Pro with BLTouch wired to Z Max
+#define MachineCR10SProV2 // Second Gen 10S Pro with BLTouch wired to Z Max
 //#define MachineCRX
 //#define MachineCRXPro
 //#define MachineCR10Max
@@ -74,7 +74,7 @@
    E3D Mounting assumes Groovemount
    Creality Mounting assumes bolt-on kit
 */
-//#define HotendStock
+#define HotendStock
 //#define HotendE3D
 //#define HotendMosquito
 
@@ -122,7 +122,7 @@
 //#define ABL_EZABL // TH3D EZABL or Any NO Sensor
 //#define ABL_EZABL12MM
 //#define ABL_NCSW //Creality ABL or Any NC Sensor
-//#define ABL_BLTOUCH
+#define ABL_BLTOUCH
 //#define ABL_TOUCH_MI // Uncomment ABL_TOUCH_MI to use Touch-MI sensor by hotends.fr
 
 //#define Creality42XUseZMin // Use ZMin pin for probe on Creality 422 and 427 boards
@@ -137,7 +137,7 @@
  */
 
 //#define OrigLCD // Upgraded mainboard with single cable Ender LCD
-//#define GraphicLCD // 12864 Full graphics LCD for Ender 4, CR-X, Ender 5 Plus, CR10SPro, or CR10Max
+#define GraphicLCD // 12864 Full graphics LCD for Ender 4, CR-X, Ender 5 Plus, CR10SPro, or CR10Max
 //#define Big_UI // Lightweight status screen, saves CPU cycles
 
 // CR-6 or Ender touchscreen kit
@@ -148,7 +148,7 @@
 
 
 // Touchscreen options - only 32 bit boards have the open serial ports to use with graphics displays above
-//#define FORCE10SPRODISPLAY
+#define FORCE10SPRODISPLAY
 
 //#define AddonFilSensor //Adds a filament runout sensor to the CR20 or Ender 4
 //#define lerdgeFilSensor //Using lerdge filament sensor, which is opposite polarity to stock
@@ -174,7 +174,7 @@
    Melzi board users may only select ABL_BI for bilinear leveling
    If a probe is enabled and nothing selected here, defaults to Bilinear
 */
-//#define ABL_BI
+#define ABL_BI
 //#define ABL_UBL
 
 /*
@@ -229,7 +229,7 @@
   //#define Dual_CyclopsSingleNozzle
   //#define Dual_ChimeraDualNozzle
 
-//#define POWER_LOSS_RECOVERY //Large and does not fit with any other features on Melzi, or UBL on Atmega
+#define POWER_LOSS_RECOVERY //Large and does not fit with any other features on Melzi, or UBL on Atmega
 
 //Add filtering to endstops when long extensions are used. Makes homing more reliable but less accurate.
 //#define CableExtensionNoiseFilter
@@ -241,7 +241,7 @@
    Standard is recommended in most other scenarios.
 */
 //#define MeshFast
-//#define MeshStd
+#define MeshStd
 //#define MeshFine
 //#define MeshExtreme
 
